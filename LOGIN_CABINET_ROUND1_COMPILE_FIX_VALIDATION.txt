@@ -1,0 +1,37 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: Login state exists
+OK: Pending after login exists
+OK: Add requires login
+OK: Cabinet requires login
+OK: Login screen exists
+OK: Login completion exists
+OK: Cabinet screen exists
+OK: Cabinet hero exists
+OK: Cabinet support exists
+OK: Cabinet stats exists
+OK: Cabinet listing cards exist
+OK: No stale money helper call
+OK: Cabinet listing uses formatMoney
+OK: formatMoney helper exists
+OK: Add placeholder exists
+OK: Phone validation exists
+OK: User listings list exists
+OK: Listing mine flag exists
+OK: Sync user listings exists
+OK: Cabinet does not add all listings
+OK: Cabinet fallback limited
+OK: Logout exists
+OK: Back handles login/cabinet/add
+OK: Workflow uses login/cabinet validator
+OK: target SDK 35
+OK: compile SDK 35
+
+All login/cabinet round 1 checks passed.
+OK: No money helper call remains
+OK: formatMoney used in cabinet listing card
+OK: formatMoney helper exists
+OK: Login screen present
+OK: Cabinet screen present
+OK: No WebView
+OK: Workflow present

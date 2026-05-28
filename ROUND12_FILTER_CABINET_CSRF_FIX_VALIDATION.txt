@@ -1,0 +1,29 @@
+ROUND12 filters/cabinet/csrf validation
+
+Workflow validators:
+OK: validate_home_round7.py
+OK: validate_detail_round3.py
+OK: validate_login_cabinet_round1.py
+OK: validate_cabinet_ui_round1.py
+OK: validate_cabinet_filter_round1.py
+OK: validate_add_listing_round1.py
+OK: validate_add_listing_round1_compilefix.py
+OK: validate_add_listing_round2_active.py
+OK: validate_production_round3.py
+OK: validate_add_listing_round4_polish.py
+OK: validate_round5_real_api_safearea.py
+OK: validate_round6_real_data_csrf_polish.py
+OK: validate_round7_session_persistence.py
+OK: validate_round8_promotions_billing.py
+OK: validate_round9_real_detail_no_demo.py
+
+Custom checks:
+OK: Java braces/parens balanced
+OK: Filters dialog applies city/price/year
+OK: Price history helper text removed
+OK: Cabinet uses requestUserListings helper
+OK: OTP sets user phone before cabinet fetch
+OK: Manual cookie attach/store for authenticated API
+OK: CSRF retry after token error
+
+NOTE: Local container does not include Gradle/Android SDK, so assembleDebug is expected to run in GitHub Actions.

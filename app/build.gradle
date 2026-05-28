@@ -1,0 +1,50 @@
+plugins { id 'com.android.application' }
+
+def hasReleaseSigning = System.getenv('BYQEZI_UPLOAD_KEYSTORE') != null && System.getenv('BYQEZI_UPLOAD_KEYSTORE').trim().length() > 0
+def apiBaseUrl = (System.getenv('BYQEZI_API_BASE_URL') ?: 'https://www.byqezi.az').replaceAll('/+$', '')
+
+android {
+    namespace 'az.byqezi.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'az.byqezi.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 9
+        versionName '1.0.8-real-detail-no-demo'
+        buildConfigField 'String', 'API_BASE_URL', '"' + apiBaseUrl + '"'
+    }
+
+    buildFeatures { buildConfig true }
+
+    signingConfigs {
+        release {
+            if (hasReleaseSigning) {
+                storeFile file(System.getenv('BYQEZI_UPLOAD_KEYSTORE'))
+                storePassword System.getenv('BYQEZI_UPLOAD_KEYSTORE_PASSWORD')
+                keyAlias System.getenv('BYQEZI_UPLOAD_KEY_ALIAS')
+                keyPassword System.getenv('BYQEZI_UPLOAD_KEY_PASSWORD')
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-debug'
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (hasReleaseSigning) signingConfig signingConfigs.release
+        }
+    }
+}
+
+
+dependencies {
+    implementation 'com.android.billingclient:billing:8.3.0'
+}

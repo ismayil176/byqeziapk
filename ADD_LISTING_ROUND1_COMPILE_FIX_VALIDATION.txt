@@ -1,0 +1,8 @@
+OK: modelsForBrand helper exists
+OK: modelsForBrand delegates to modelsFor
+OK: add brand model still uses helper
+OK: existing modelsFor exists
+OK: workflow exists
+OK: no WebView
+
+All add listing compile fix checks passed.

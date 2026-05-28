@@ -1,0 +1,20 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: target SDK 35
+OK: workflow validator round6
+OK: Logo resets search before home
+OK: Reset helper clears brand/model
+OK: Brand selection helper exists
+OK: Brand onItemClick applies helper
+OK: Old brand retry toast removed
+OK: Selection keeps brand in state
+OK: Model disabled for non-exact brand
+OK: Reset button exists
+OK: Reset button clears brand/model
+OK: Regular home rows helper exists
+OK: Regular rows exclude premium and vip
+OK: Home first row uses regularRows
+OK: Home visible all rows still available
+OK: Premium rows remain separate
+OK: VIP rows remain separate
+OK: VIP screen only active VIP

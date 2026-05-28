@@ -1,0 +1,1 @@
+Round 13: filter dialog redesigned to match provided screenshots with long scrollable sections, brand grid, category chips, select rows, and fixed bottom search button.

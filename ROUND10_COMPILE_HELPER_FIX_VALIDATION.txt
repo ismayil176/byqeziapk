@@ -1,0 +1,16 @@
+Round 10 compile helper fix validation
+
+Fixed GitHub Actions assembleDebug error:
+MainActivity.java cannot find symbol firstNonEmpty(String,String,String)
+
+Change:
+- Added MainActivity-level private static firstNonEmpty(String... values) helper.
+- Kept Listing-level helper unchanged for Listing.fromJson and detail/date parsing.
+- Promotion redirect selection now resolves from MainActivity.startEpointPromotion().
+
+Local validation:
+- Workflow Python validators passed.
+- Static check confirms outer helper exists before nested Listing class.
+
+Note:
+- Full Gradle assembleDebug cannot be run inside this sandbox because Gradle/Android SDK are not installed here.

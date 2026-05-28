@@ -1,0 +1,16 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: Home ad 03 used
+OK: Banner height applied by parent layout params
+OK: Old wrap-content ad call removed
+OK: Model disabled for non-exact brand
+OK: No all-model fallback
+OK: Exact brand helper exists
+OK: Card media 128dp
+OK: Cleaner font padding
+OK: Logo returns home
+OK: Autocomplete present
+OK: Info pages present
+OK: API base https
+OK: target SDK 35
+OK: workflow uses round3 validator

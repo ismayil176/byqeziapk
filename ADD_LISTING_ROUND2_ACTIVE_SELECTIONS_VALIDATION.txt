@@ -1,0 +1,5 @@
+BYQEZI Native Android — Add Listing Round 2 Active Selections
+
+Validated locally with Python validators in this package.
+
+Important: the sandbox does not have Gradle installed, so final Gradle build must run in GitHub Actions as usual.

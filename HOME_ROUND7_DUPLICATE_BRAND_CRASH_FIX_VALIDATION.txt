@@ -1,0 +1,14 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: target SDK 35
+OK: workflow validator round7
+OK: Duplicate top preview grid removed
+OK: Regular listings stay in BÜTÜN ELANLAR
+OK: Premium block still separate
+OK: VIP block still separate
+OK: Brand item click protected
+OK: Brand exact branch does not force dismiss during watcher
+OK: Brand selection avoids clearFocus keyboard crash
+OK: Safe adapter guard exists
+OK: Reset button still exists
+OK: Model enabled only with exact brand

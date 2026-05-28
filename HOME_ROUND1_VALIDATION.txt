@@ -1,0 +1,6 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: Home UI present
+OK: Brand model autocomplete
+OK: Footer info pages
+OK: target SDK 35

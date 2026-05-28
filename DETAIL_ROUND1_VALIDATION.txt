@@ -1,0 +1,15 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: Car cards open detail
+OK: Detail screen method exists
+OK: Detail gallery card exists
+OK: Detail info card exists
+OK: Detail specs rows exist
+OK: Seller contact card exists
+OK: Complaint card exists
+OK: Related listings exists
+OK: Detail sticky contact hides bottom nav
+OK: Back press returns home
+OK: Listing detail fields exist
+OK: Workflow uses detail validator
+All Detail Round 1 checks passed.

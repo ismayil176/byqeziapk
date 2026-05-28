@@ -1,0 +1,18 @@
+AndroidX Gradle build fix applied.
+
+Problem:
+- GitHub Actions failed at :app:checkDebugAarMetadata because com.android.billingclient:billing:8.3.0 brings AndroidX runtime dependencies.
+- The project root did not include gradle.properties, so android.useAndroidX was not enabled.
+
+Fix:
+- Added root gradle.properties:
+  org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+  android.useAndroidX=true
+
+Validation:
+- Confirmed gradle.properties exists at project root.
+- Confirmed android.useAndroidX=true is present.
+- Ran the same Python validators used by .github/workflows/android-build.yml; they passed.
+
+Note:
+- Full Gradle APK/AAB compilation was not runnable in this sandbox because the Gradle CLI/Android SDK is not installed here, but this directly fixes the exact checkDebugAarMetadata failure from the GitHub Actions log.

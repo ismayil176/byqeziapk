@@ -1,0 +1,17 @@
+OK: Add screen real form replaces placeholder
+OK: Add requires login
+OK: Add active screen set
+OK: Add progress strip exists
+OK: Vehicle type section exists
+OK: Technical section exists
+OK: Brand/model autocomplete exists
+OK: Model disabled for non-exact brand
+OK: Photos section exists
+OK: Price condition section exists
+OK: Contact section exists
+OK: Color palette exists
+OK: Submit safely placeholder only
+OK: No WebView
+OK: Workflow uses add listing validator
+
+All add listing round 1 checks passed.

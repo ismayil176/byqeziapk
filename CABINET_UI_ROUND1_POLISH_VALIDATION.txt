@@ -1,0 +1,71 @@
+OK: No WebView
+OK: No TWA/browserhelper
+OK: target SDK 35
+OK: workflow validator round7
+OK: Duplicate top preview grid removed
+OK: Regular listings stay in BÜTÜN ELANLAR
+OK: Premium block still separate
+OK: VIP block still separate
+OK: Brand item click protected
+OK: Brand exact branch does not force dismiss during watcher
+OK: Brand selection avoids clearFocus keyboard crash
+OK: Safe adapter guard exists
+OK: Reset button still exists
+OK: Model enabled only with exact brand
+OK: No giant price placeholder
+OK: Price history list container
+OK: Price history close button
+OK: Report selected reason state
+OK: Report option views array
+OK: Report active visual state
+OK: Report send requires selection
+OK: Report send includes selected reason
+OK: Workflow uses detail round3 validator
+OK: No WebView
+OK: No WebView
+OK: No TWA/browserhelper
+OK: Login state exists
+OK: Pending after login exists
+OK: Add requires login
+OK: Cabinet requires login
+OK: Login screen exists
+OK: Login completion exists
+OK: Cabinet screen exists
+OK: Cabinet hero exists
+OK: Cabinet support exists
+OK: Cabinet stats exists
+OK: Cabinet listing cards exist
+OK: No stale money helper call
+OK: Cabinet listing uses formatMoney
+OK: formatMoney helper exists
+OK: Add placeholder exists
+OK: Phone validation exists
+OK: User listings list exists
+OK: Listing mine flag exists
+OK: Sync user listings exists
+OK: Cabinet does not add all listings
+OK: Cabinet fallback limited
+OK: Logout exists
+OK: Back handles login/cabinet/add
+OK: Workflow uses login/cabinet validator
+OK: target SDK 35
+OK: compile SDK 35
+
+All login/cabinet round 1 checks passed.
+OK: Cabinet UI round marker doc
+OK: Workflow uses cabinet UI validator
+OK: Cabinet content safe padding
+OK: Hero card 22dp radius
+OK: Hero active cabinet badge
+OK: Hero add button fixed height
+OK: Support service badge exists
+OK: Support card 22dp radius
+OK: Stats 82dp cards
+OK: Stat number 23sp
+OK: Notice polished background
+OK: Listing card vertical layout
+OK: Listing image 124x92
+OK: Listing actions 42dp
+OK: Cabinet functions single definition
+OK: No WebView
+OK: No TWA

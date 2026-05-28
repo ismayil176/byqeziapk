@@ -1,0 +1,1 @@
+-keep class az.byqezi.app.** { *; }
